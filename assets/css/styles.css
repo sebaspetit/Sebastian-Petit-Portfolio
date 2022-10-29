@@ -106,7 +106,7 @@ h4 {
     display: block;
     position: relative;
     margin: 1rem auto;
-    max-width: 400px;
+    max-width: 100%;
     overflow: hidden;
     box-shadow: 0 0 10px var(--gray2);
     padding: 0;
@@ -374,4 +374,14 @@ textarea {
     width: 100%;
     top: 0;
     z-index: 100;
+}
+
+
+@media all and (max-width: 568px) {
+    #skillset > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        margin: 1rem;
+    }
 }
