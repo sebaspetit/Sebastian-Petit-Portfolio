@@ -76,6 +76,7 @@ body {
     color: var(--gray3);
     text-align: center;
     font-size: 14px;
+    cursor: default;
 }
 
 header,
@@ -102,6 +103,8 @@ h4 {
     font-size: 1.5rem;
 }
 /*Portfolio*/
+
+
 #portfolio button {
     display: block;
     position: relative;
@@ -111,7 +114,7 @@ h4 {
     box-shadow: 0 0 10px var(--gray2);
     padding: 0;
     border: none;
-    cursor: zoom-in;
+    cursor: pointer;
 }
 
 #portfolio img {
@@ -126,7 +129,6 @@ h4 {
 
 #portfolio button::before {
     content: '';
-    
     width: 100%;
     height: 100%;
     position: absolute;
@@ -149,7 +151,7 @@ h4 {
     bottom: 0;
     left: 50%;
     transform:translate(-50%, 50%);
-    color: var(--black);
+    color: var(--white);
     opacity: 0;
     transition: bottom ease .3s, opacity ease .3s;
 }
@@ -158,6 +160,8 @@ h4 {
     bottom: 30%;
     opacity:1;
 }
+
+
 
 #portfolio button:after {
     content: url('../img/icons/zoom.svg');
@@ -175,6 +179,17 @@ h4 {
     top: 40%;
     opacity: .75;
 }
+
+/* show */
+
+summary {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+
+
+
 /*Skillset */
 #skillset > div {
     display: grid;

@@ -23,7 +23,7 @@
             <source src="assets/video/hero.mp4" />
         </video>
     </header>
-    <nav id="navbar" class="open ">
+    <nav id="navbar" class="">
         <div>
             <a href="/">
                 <img class="circle" alt="small logo" src="assets/img/logos/small.png"  />
@@ -41,28 +41,32 @@
     <main>
         <!--Portfolio-->
         <section id="portfolio">
+            
             <h3>Portfolio & Experience</h3>
             <hr/>
-            <div>
-                <button>
-                    <img alt="portfolio"src="assets/img/portfolio/newEnergy.png"/>
-                    <h4>Chemical Engineer Intership</h4>
-                </button>
-                  <!--Soon I will add this experience :) */
-                <button>
-                    <img alt="portfolio" src="assets/img/portfolio/2.png"/>
-                    <h4>NASA</h4>
-                </button>
-                <button>
-                    <img alt="portfolio" src="assets/img/portfolio/3.png"/>
-                    <h4>Microsoft</h4>
-                </button>
-                <button>
-                    <img alt="portfolio" src="assets/img/portfolio/3.png"/>
-                    <h4>Apple</h4>
-                </button>
-            </div> -->
+                    <button onClick="show()">
+                        <img alt="portfolio" src="assets/img/portfolio/newEnergy.png"/>
+                        <h4>Chemical Engineer Intership</h4>
+                    </button>
+                    <p class="hidden" style="display: none;"> As a Team Member In Hybrid Auxiliary Powers Units we work in CO2 Capture project, Using sofware to simulate and estimate the absorption capacity of NaOH.
+                        We evaluate the cost reduction, product  differentiation and productivity results in the transition to a green energy of zero emissions, eco-effectiveness 
+                        and high efficiency and productivity.</p>
+                
+                    <!--Soon I will add this experience :) */
+                    <button>
+                        <img alt="portfolio" src="assets/img/portfolio/2.png"/>
+                        <h4>NASA</h4>
+                    </button>
+                    <button>
+                        <img alt="portfolio" src="assets/img/portfolio/3.png"/>
+                        <h4>Microsoft</h4>
+                    </button>
+                    <button>
+                        <img alt="portfolio" src="assets/img/portfolio/3.png"/>
+                        <h4>Apple</h4>
+                    </button> -->
         </section>
+                
         <!--Skills-->
         <section id="skillset" class="even">
         <h3>Skillset</h3>
@@ -81,7 +85,7 @@
                     <span class="tooltip">JavaScript</span>
                 </div>
                 <div>
-                    <img src="assets/img/skillset/git.jpg"/>
+                    <img src="assets/img/skillset/git.png"/>
                     <span class="tooltip">GIT</span>
                 </div>
                 <div>
@@ -152,5 +156,6 @@
     <footer>
         <small>Developed and designed by Sebastian Petit 2022</small>
     </footer>
+    <script src="assets/js/index.js"></script>
 </body>
 </html>
