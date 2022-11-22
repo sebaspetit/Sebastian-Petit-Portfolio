@@ -1,13 +1,3 @@
-function show() {
-    let hidden = document.getElementsByClassName('hidden');
-    for(let i = 0 ; i < hidden.length; i++){
-        if (hidden[i].style.display == "none") {
-            hidden[i].style.display = "block"
-        } else {
-            hidden[i].style.display = "none"
-        }
-    }
-}
 
 (function () {
     let navbar = document.querySelector('#navbar');
